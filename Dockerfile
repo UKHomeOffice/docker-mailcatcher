@@ -3,4 +3,4 @@ MAINTAINER Lewis Marshall <lewis@technoplusit.co.uk>
 
 RUN gem install mailcatcher
 
-ENTRYPOINT ["mailcatcher", "-f"]
+ENTRYPOINT ["mailcatcher", "-f", "--ip", "0.0.0.0"]
